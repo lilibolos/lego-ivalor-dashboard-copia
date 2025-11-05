@@ -1,5 +1,6 @@
 import express from "express";
 import path from "path";
+// @ts-ignore
 import serverless from "serverless-http";
 
 const app = express();
