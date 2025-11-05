@@ -1,0 +1,10 @@
+KPI_ID,KPI_Name,Value,Unit,Period,Baseline,Change_vs_Baseline,Status,Icon,Color
+1,Crecimiento Ingresos,594,%,2003-2014,$735M → $5100M,+$4365M,Objetivo superado,TrendingUp,green
+2,Margen Operativo,27,%,2014,2.4% (2003),+1025%,Objetivo superado,Target,blue
+3,Reducción Deuda,-98,%,2003-2014,$800M → $15M,-$785M,Deuda bajo control,TrendingDown,purple
+4,Comunidad Activa,2.5,Million Fans,2014,0.5M (2003),+400%,Co-creación activa,Users,orange
+5,Valor de Marca,8.2,Billion $,2014,2.1B (2003),+290%,Top 3 global,Award,gold
+6,NPS,72,Score,2014,28 (2003),+157%,Lealtad excepcional,Heart,red
+7,Innovación Digital,450,%,ROI 2014,0% (2003),N/A,Líder digital,Lightbulb,yellow
+8,Eficiencia Operativa,85,%,2014,45% (2003),+89%,Clase mundial,Zap,cyan
+

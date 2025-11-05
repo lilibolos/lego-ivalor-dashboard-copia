@@ -1,0 +1,20 @@
+Phase_ID,Phase_Name,Metric,Actual,Target,Max_Scale
+1,I - IDENTIFICAR,Valor de Marca,82,85,100
+1,I - IDENTIFICAR,Engagement Comunidad,82,85,100
+1,I - IDENTIFICAR,Índice de Innovación,85,88,100
+2,V - VALORAR,Coste Oportunidad,92,100,100
+2,V - VALORAR,Valor Potencial,89,100,100
+2,V - VALORAR,ROI Proyectado,93,100,100
+3,A - ACTIVAR,Co-creación,93,100,100
+3,A - ACTIVAR,Reducción Complejidad,92,100,100
+3,A - ACTIVAR,Ventas Digitales,91,100,100
+4,L - LIDERAR,Alineación Estratégica,96,100,100
+4,L - LIDERAR,Disciplina Financiera,95,100,100
+4,L - LIDERAR,Cultura Innovación,90,100,100
+5,O - ORGANIZAR,Eficiencia Supply Chain,97,100,100
+5,O - ORGANIZAR,Tiempo Desarrollo,86,100,100
+5,O - ORGANIZAR,Productividad,95,100,100
+6,R - RETORNAR,Crecimiento Ingresos,100,100,100
+6,R - RETORNAR,Margen Operativo,100,100,100
+6,R - RETORNAR,Liderazgo Mercado,100,100,100
+

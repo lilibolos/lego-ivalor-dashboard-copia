@@ -1,0 +1,18 @@
+Phase_ID,Phase_Name,Metric_Name,Baseline_2003,Target_2014,Actual_2014,Unit,Category
+1,I - IDENTIFICAR,Valor de Marca,2.1,8.5,8.2,Billion $,Brand
+1,I - IDENTIFICAR,Engagement Comunidad,15,85,82,%,Community
+1,I - IDENTIFICAR,Índice de Innovación,22,88,85,Score 0-100,Innovation
+2,V - VALORAR,Coste Oportunidad Marca,0,2.5,2.3,Billion $,Financial
+2,V - VALORAR,Valor Potencial Comunidad,0,1.8,1.6,Billion $,Financial
+2,V - VALORAR,ROI Innovación Digital,0,450,420,%,Financial
+3,A - ACTIVAR,Productos Co-creados,0,45,42,%,Product
+3,A - ACTIVAR,Reducción Complejidad,0,65,60,%,Operations
+3,A - ACTIVAR,Ventas Digitales,5,35,32,%,Revenue
+4,L - LIDERAR,Alineación Estratégica,30,92,88,%,Leadership
+4,L - LIDERAR,Disciplina Financiera,25,95,90,%,Leadership
+5,O - ORGANIZAR,Eficiencia Cadena Suministro,45,88,85,%,Operations
+5,O - ORGANIZAR,Tiempo Desarrollo Producto,18,6,7,Months,Operations
+6,R - RETORNAR,Crecimiento Ingresos,0,594,594,%,Financial
+6,R - RETORNAR,Margen Operativo,2.4,27,27,%,Financial
+6,R - RETORNAR,Liderazgo Mercado,8,1,1,Ranking,Market
+

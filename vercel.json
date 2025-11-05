@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/index.ts", "use": "@vercel/node" },
+    { "src": "dist/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/phase/organizar", "dest": "api/index.ts" },
+    { "src": "/(.*)", "dest": "dist/$1" }
+  ]
+}

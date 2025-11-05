@@ -1,0 +1,20 @@
+Domain_ID,Domain_Name,Intangible_Asset,Measurement_Method,Value_2003,Value_2014,Unit,Impact_on_PL,Strategic_Priority
+1,Marca,Valor de Marca LEGO,Relief from Royalty Method,2.1,8.2,Billion $,High,Critical
+1,Marca,Brand Equity Score,Brand Valuation Index,45,92,Score 0-100,High,Critical
+1,Marca,Top of Mind Awareness,Market Research,%,35,78,%,Medium,High
+2,Talento,Employee Engagement,eNPS Survey,32,68,Score,Medium,High
+2,Talento,Retención Talento Clave,HR Analytics,72,95,%,High,Critical
+2,Talento,Productividad por Empleado,Revenue per Employee,79.9,1062.5,K$ per Employee,High,Critical
+3,Clientes,Net Promoter Score (NPS),Customer Survey,28,72,Score,High,Critical
+3,Clientes,Customer Lifetime Value,CLV Analysis,180,520,$,High,Critical
+3,Clientes,Repeat Purchase Rate,Sales Analytics,42,78,%,Medium,High
+4,Datos,Datos de Comunidad,Community Analytics Platform,Low,High,Qualitative,Medium,High
+4,Datos,Customer Intelligence,CRM & Analytics,Low,High,Qualitative,High,Critical
+4,Datos,Digital Engagement,Web & App Analytics,5,82,% Active Users,High,Critical
+5,Innovación,Productos Co-creados,Innovation Pipeline,0,42,% of Portfolio,High,Critical
+5,Innovación,Tiempo Desarrollo Producto,Project Management,18,7,Months,High,Critical
+5,Innovación,ROI Innovación Digital,Financial Analysis,0,450,%,High,Critical
+6,Cultura,Alineación Estratégica,Employee Survey,30,88,%,High,Critical
+6,Cultura,Cultura de Innovación,Innovation Index,25,85,Score 0-100,Medium,High
+6,Cultura,Disciplina Financiera,Financial Compliance,60,90,%,High,Critical
+
