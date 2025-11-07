@@ -35,6 +35,7 @@ import AIRecommendations from "@/components/AIRecommendations";
 import AIValueComparison from "@/components/AIValueComparison";
 import AISimulator from "@/components/AISimulator";
 import BusinessCase from "@/components/BusinessCase";
+import IntegrationArchitecture from "@/components/IntegrationArchitecture";
 
 export default function Dashboard() {
   // Calcular métricas clave
@@ -75,11 +76,30 @@ export default function Dashboard() {
         </div>
       </header>
 
+      {/* Educational Simulator Disclaimer */}
+      <div className="bg-gradient-to-r from-amber-50 to-orange-50 border-l-4 border-amber-500">
+        <div className="container mx-auto px-6 py-3">
+          <div className="flex items-start gap-3">
+            <svg className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <div>
+              <p className="text-sm font-semibold text-amber-900">Simulador Educativo</p>
+              <p className="text-xs text-amber-800 mt-0.5">
+                Este dashboard es un <strong>simulador educativo</strong> que demuestra el framework IVALOR para gestión estratégica de intangibles. 
+                Los datos están basados en patrones reales del caso LEGO, pero los algoritmos de IA son production-ready. 
+                Una versión corporativa con diseño personalizado e integración de datos reales puede estar lista en 90 días.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Main Content */}
       <main className="container mx-auto px-6 py-8">
         {/* Tabs para organizar contenido */}
         <Tabs defaultValue="overview" className="space-y-6">
-          <TabsList className="grid w-full grid-cols-4 lg:w-auto lg:inline-grid">
+          <TabsList className="grid w-full grid-cols-5 lg:w-auto lg:inline-grid">
             <TabsTrigger value="overview">Visión General</TabsTrigger>
             <TabsTrigger value="ai-insights" className="flex items-center gap-2">
               <SparklesIcon className="w-4 h-4" />
@@ -87,6 +107,7 @@ export default function Dashboard() {
             </TabsTrigger>
             <TabsTrigger value="ivalor">Framework IVALOR</TabsTrigger>
             <TabsTrigger value="business-case">Business Case / ROI</TabsTrigger>
+            <TabsTrigger value="integration">Arquitectura</TabsTrigger>
           </TabsList>
 
           {/* Tab: Visión General */}
@@ -416,6 +437,11 @@ export default function Dashboard() {
           {/* Tab: Business Case */}
           <TabsContent value="business-case" className="space-y-6">
             <BusinessCase />
+          </TabsContent>
+
+          {/* Tab: Integration Architecture */}
+          <TabsContent value="integration" className="space-y-6">
+            <IntegrationArchitecture />
           </TabsContent>
         </Tabs>
       </main>

@@ -24,6 +24,14 @@ export interface IvalorPhase {
   actions: string[];
   results: string[];
   metrics: IntangibleMetric[];
+  governance?: {
+    structure: Array<{
+      role: string;
+      responsibility: string;
+      accountability: string;
+    }>;
+    decisionFramework: string[];
+  };
 }
 
 // Datos financieros históricos de LEGO
@@ -262,13 +270,47 @@ export const ivalorPhases: IvalorPhase[] = [
       "Implementación de disciplina financiera implacable",
       "Creación de comité ejecutivo para revisión de rentabilidad",
       "Establecimiento de criterio único: ¿Fortalece nuestro núcleo?",
+      "Definición de estructura de gobernanza de intangibles",
+      "Asignación de roles y responsabilidades claras",
+      "Implementación de métricas de accountability",
     ],
     results: [
       "92% de decisiones alineadas con fortalecimiento del núcleo",
       "Margen operativo recuperado al 27%",
       "Cultura de responsabilidad financiera en toda la organización",
+      "Estructura de gobernanza cross-funcional operativa",
     ],
     metrics: intangibleMetrics.liderar,
+    governance: {
+      structure: [
+        {
+          role: "Chief Intangibles Officer (CIO)",
+          responsibility: "Supervisión estratégica de todos los activos intangibles",
+          accountability: "ROI consolidado de intangibles",
+        },
+        {
+          role: "Brand & IP Manager",
+          responsibility: "Gestión de marca, propiedad intelectual y licencias",
+          accountability: "Valor de marca y protección de IP",
+        },
+        {
+          role: "Community & Data Lead",
+          responsibility: "Engagement de comunidad y monetización de datos",
+          accountability: "Tamaño y valor de comunidad activa",
+        },
+        {
+          role: "Innovation Director",
+          responsibility: "I+D, innovación digital y nuevos modelos de negocio",
+          accountability: "Pipeline de innovación y ROI de proyectos",
+        },
+      ],
+      decisionFramework: [
+        "Todas las inversiones >$1M requieren aprobación del comité de intangibles",
+        "Revisión trimestral de KPIs de intangibles en comité ejecutivo",
+        "Criterio de decisión único: ¿Fortalece nuestro núcleo?",
+        "Veto del CFO en proyectos sin business case claro",
+      ],
+    },
   },
   {
     id: "organizar",
