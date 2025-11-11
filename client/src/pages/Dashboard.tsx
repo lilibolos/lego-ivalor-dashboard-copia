@@ -36,6 +36,7 @@ import AIValueComparison from "@/components/AIValueComparison";
 import AISimulator from "@/components/AISimulator";
 import BusinessCase from "@/components/BusinessCase";
 import IntegrationArchitecture from "@/components/IntegrationArchitecture";
+import StrategicIntangibles from "@/components/StrategicIntangibles";
 
 export default function Dashboard() {
   // Calcular métricas clave
@@ -99,13 +100,17 @@ export default function Dashboard() {
       <main className="container mx-auto px-6 py-8">
         {/* Tabs para organizar contenido */}
         <Tabs defaultValue="overview" className="space-y-6">
-          <TabsList className="grid w-full grid-cols-5 lg:w-auto lg:inline-grid">
-            <TabsTrigger value="overview">Visión General</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-6 lg:w-auto lg:inline-grid">
+            <TabsTrigger value="overview">Caso LEGO</TabsTrigger>
             <TabsTrigger value="ai-insights" className="flex items-center gap-2">
               <SparklesIcon className="w-4 h-4" />
               IA en Acción
             </TabsTrigger>
             <TabsTrigger value="ivalor">Framework IVALOR</TabsTrigger>
+            <TabsTrigger value="strategic-intangibles" className="flex items-center gap-2">
+              <SparklesIcon className="w-4 h-4" />
+              Intangibles Estratégicos
+            </TabsTrigger>
             <TabsTrigger value="business-case">Business Case / ROI</TabsTrigger>
             <TabsTrigger value="integration">Arquitectura</TabsTrigger>
           </TabsList>
@@ -432,6 +437,11 @@ export default function Dashboard() {
                 </CardContent>
               </Card>
             </div>
+          </TabsContent>
+
+          {/* Tab: Strategic Intangibles */}
+          <TabsContent value="strategic-intangibles" className="space-y-6">
+            <StrategicIntangibles />
           </TabsContent>
 
           {/* Tab: Business Case */}
