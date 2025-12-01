@@ -35,6 +35,8 @@ import AIRecommendations from "@/components/AIRecommendations";
 import AIValueComparison from "@/components/AIValueComparison";
 import AISimulator from "@/components/AISimulator";
 import BusinessCase from "@/components/BusinessCase";
+import BusinessCaseEnhanced from "@/components/BusinessCaseEnhanced";
+import DualImpactBalance from "@/components/DualImpactBalance";
 import IntegrationArchitecture from "@/components/IntegrationArchitecture";
 import StrategicIntangibles from "@/components/StrategicIntangibles";
 
@@ -100,7 +102,7 @@ export default function Dashboard() {
       <main className="container mx-auto px-6 py-8">
         {/* Tabs para organizar contenido */}
         <Tabs defaultValue="overview" className="space-y-6">
-          <TabsList className="grid w-full grid-cols-6 lg:w-auto lg:inline-grid">
+          <TabsList className="grid w-full grid-cols-7 lg:w-auto lg:inline-grid">
             <TabsTrigger value="overview">Caso LEGO</TabsTrigger>
             <TabsTrigger value="ai-insights" className="flex items-center gap-2">
               <SparklesIcon className="w-4 h-4" />
@@ -112,6 +114,10 @@ export default function Dashboard() {
               Intangibles Estratégicos
             </TabsTrigger>
             <TabsTrigger value="business-case">Business Case / ROI</TabsTrigger>
+            <TabsTrigger value="dual-impact" className="flex items-center gap-2">
+              <SparklesIcon className="w-4 h-4" />
+              Impacto Dual Balance
+            </TabsTrigger>
             <TabsTrigger value="integration">Arquitectura</TabsTrigger>
           </TabsList>
 
@@ -446,7 +452,12 @@ export default function Dashboard() {
 
           {/* Tab: Business Case */}
           <TabsContent value="business-case" className="space-y-6">
-            <BusinessCase />
+            <BusinessCaseEnhanced />
+          </TabsContent>
+
+          {/* Tab: Dual Impact Balance */}
+          <TabsContent value="dual-impact" className="space-y-6">
+            <DualImpactBalance />
           </TabsContent>
 
           {/* Tab: Integration Architecture */}
